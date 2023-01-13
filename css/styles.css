@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Encode Sans", sans-serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Allura", cursive;
+  font-size: 4.375rem;
+  color: #1b9797;
+}
+
+h2 {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 2rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Comfortaa", sans-serif;
+  color: #11999e;
+}
+
+p {
+  color: #041432;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: #afafb2;
+  border-width: 5px;
+  height: 4px;
+  width: 5%;
+  margin: 50px auto;
+}
+
+.top-container {
+  background-color: #c5efff;
+  position: relative;
+  padding-top: 120px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 60px;
+  right: 18%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 22%;
+  bottom: 50%;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.profile {
+  width: 40%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.profile-pic {
+  width: 40%;
+  border-radius: 80%;
+  margin-right: 20px;
+  float: none;
+}
+
+.skill-row {
+  width: 40%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.teacher {
+  width: 30%;
+  float: left;
+  margin-right: 33px;
+  transform: scaleX(-1);
+}
+
+.laptop {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 0 auto 100px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.btn {
+  background: linear-gradient(#11cdd4, #11999e);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  color: #ffffff;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0.6rem 0.5rem;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: linear-gradient(#30e3cb, #2bc4ad);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  color: #ffffff;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0.6rem 0.5rem;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  margin: 0;
+  padding: 50px 0 20px 0;
+}
+
+.footer-link {
+  color: #aceff3;
+  font-family: "Comfortaa", sans-serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 0.75rem;
+  padding: 20px 0 0 0;
+}
